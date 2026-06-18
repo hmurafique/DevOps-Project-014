@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Lambda packaging
+serverless-api/node_modules/
+artifact.zip
+*.zip
+
+# OS
+.DS_Store
