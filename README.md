@@ -1,3 +1,4 @@
+# DevOps-Project-014
 # AWS Fully Serverless Architecture with CI/CD
 
 ![Terraform](https://img.shields.io/badge/Terraform-1.15.6-7B42BC?logo=terraform&logoColor=white)
@@ -37,14 +38,14 @@ flowchart TD
 
 ## Tech Stack & Pinned Versions
 
-| Component             | Version            |
-|------------------------|---------------------|
-| Terraform               | 1.15.6              |
-| AWS provider             | ~> 6.50.0            |
-| Random provider          | ~> 3.9.0             |
-| Lambda runtime           | nodejs20.x           |
+| Component                | Version                    |
+|--------------------------|----------------------------|
+| Terraform                | 1.15.6                     |
+| AWS provider             | ~> 6.50.0                  |
+| Random provider          | ~> 3.9.0                   |
+| Lambda runtime           | nodejs20.x                 |
 | Database engine          | Aurora MySQL Serverless v2 |
-| CI/CD                    | GitHub Actions       |
+| CI/CD                    | GitHub Actions             |
 
 ## Prerequisites
 
@@ -117,4 +118,4 @@ And delete the repository secrets (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`,
 
 ## Credits
 
-Architecture and application source adapted from [NotHarshhaa/DevOps-Projects — Project 22](https://github.com/NotHarshhaa/DevOps-Projects/tree/master/DevOps-Project-22). AWS infrastructure adaptation, fixes, and GitHub Actions CI/CD implemented end-to-end by Hafiz Muhammad Umar Rafique.
+AWS infrastructure adaptation, fixes, and GitHub Actions CI/CD implemented end-to-end by Hafiz Muhammad Umar Rafique.
